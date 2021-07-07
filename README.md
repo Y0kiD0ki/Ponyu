@@ -1,6 +1,5 @@
 # Ponyu
-A game I made with a friend for a high school coding project during junior year.
-If the game has any issues, I'm sorry. It's the first game I made and it shows.
+My first game ever that I made with a friend for a high school coding project during junior year.
 
 ___HOW TO RUN___
 - All you got to do is run the finalversion_huang.py.
