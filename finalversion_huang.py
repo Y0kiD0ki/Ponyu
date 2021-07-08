@@ -457,7 +457,7 @@ while run:
 
 
 
-    #Once Poñyu scores 250 Cinnabon Delights (hits enemy 250x), the player is awarded to end screen
+    #Once Poñyu scores ___ Cinnabon Delights (hits enemy ___), the player is awarded to end screen
     if cinnabon_delights < 100:
         continue_platform = True
         #Sidescrolling background
@@ -488,17 +488,17 @@ while run:
     if cinnabon_delights >= 100:
         cráneo_fuego.visible = False
         cráneo_fuego_dos.visible = False
-        redrawGameWindow()
-        show_boss_dialogue1.appear()
-        show_boss_dialogue1.visible = False
-        show_boss_dialogue2.appear()
-        show_boss_dialogue2.visible = False
-        pygame.mixer.music.pause()
-        window.fill((0, 0, 0))
-        show_boss_dialogue3.appear()
-        show_boss_dialogue3.visible = False
+        #redrawGameWindow()
+        #show_boss_dialogue1.appear()
+        #show_boss_dialogue1.visible = False
+        #show_boss_dialogue2.appear()
+        #show_boss_dialogue2.visible = False
+        #pygame.mixer.music.pause()
+        #window.fill((0, 0, 0))
+        #show_boss_dialogue3.appear()
+        #show_boss_dialogue3.visible = False
 
-        pygame.mixer.music.unpause()
+        #pygame.mixer.music.unpause()
 
         #Boss battle
         redrawGameWindow_end()
